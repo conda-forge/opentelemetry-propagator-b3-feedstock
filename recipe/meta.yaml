@@ -1,5 +1,5 @@
 {% set name = "opentelemetry-propagator-b3" %}
-{% set version = "1.8.0" %}
+{% set version = "1.9.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 5236995904d40663f2b819c85d93fccf17c4d14916f181c5d827fe0a7b69fa03
+  sha256: f08c67619e9546f92c29dbc90fa27821e4e00bfad7b23f07dec4fc336f9c84e3
 
 build:
   number: 0
