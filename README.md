@@ -1,11 +1,11 @@
-About opentelemetry-propagator-b3
-=================================
+About opentelemetry-propagator-b3-feedstock
+===========================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/opentelemetry-propagator-b3-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/open-telemetry/opentelemetry-python/tree/master/propagator/opentelemetry-propagator-b3
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/opentelemetry-propagator-b3-feedstock/blob/main/LICENSE.txt)
 
 Summary: OpenTelemetry B3 Propagator
 
