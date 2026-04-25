@@ -1,5 +1,5 @@
 {% set name = "opentelemetry-propagator-b3" %}
-{% set version = "1.41.0" %}
+{% set version = "1.41.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/opentelemetry_propagator_b3-{{ version }}.tar.gz
-  sha256: ef98b715b3a05e8b0b03ebaea1bf295b4ad61a0e306e2d1da81d32af7395e6ad
+  sha256: e8563b588aa5f1f90740dcd678f04d5634de2d4e0077b7ca4a177c71a02f745d
 
 build:
   noarch: python
@@ -23,6 +23,7 @@ requirements:
     - python >=3.7
     - deprecated >=1.2.6
     - opentelemetry-api ~=1.3
+    # - typing_extensions >=4.5.0
     # - typing_extensions >=4.5.0
     # - typing_extensions >=4.5.0
     # - typing_extensions >=4.5.0
